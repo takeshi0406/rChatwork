@@ -5,7 +5,7 @@
 #' @return API object
 #'
 #' @export
-chatwrokClient <- R6::R6Class("chatwrokClient",
+chatworkClient <- R6::R6Class("chatworkClient",
   public=list(
     initialize=function(access_token) {
       private$access_token <- access_token
