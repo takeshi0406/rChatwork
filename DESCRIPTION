@@ -1,0 +1,16 @@
+Package: rChatwork
+Type: Package
+Title: rChatwork
+Version: 0.1
+Date: 2016-03-20
+Author: takeshi0406
+Maintainer: takeshi0406<sci.and.eng@gmail.com>
+Description: request chatwork API with R
+License: MIT
+LazyData: TRUE
+Imports:
+    RCurl,
+    R6,
+    utils,
+    rjson
+RoxygenNote: 5.0.1
