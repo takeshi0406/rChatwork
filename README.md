@@ -5,7 +5,7 @@ chatwork library for R
 
 ``` bash
 library(devtools)
-install_github("geoffjentry/twitteR")
+install_github("takeshi0406/rChatwork")
 ```
 
 # use
