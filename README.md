@@ -1,14 +1,14 @@
 # rChatwork
 chatwork library for R
 
-# install
+# Installation
 
 ``` bash
 library(devtools)
 install_github("takeshi0406/rChatwork")
 ```
 
-# use
+# Usage
 refer api document.
 http://developer.chatwork.com/
 
