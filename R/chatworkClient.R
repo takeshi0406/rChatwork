@@ -1,9 +1,20 @@
 #' make API client object
 #'
-#' @param token
+#' @docType class
+#' @format An \code{\link{R6Class}} generator object
+#' @examples
+#' \dontrun{
+#' client <- rChatwork::chatworkClient$new(access_token)
+#' client$post_messages(message = 'hello chatwork!', room_id = 12345)
+#' client$get_messages(room_id = 12345, force = TRUE)
+#' }
+#' @field access_token your personal access token to authenticate access
 #'
-#' @return API object
-#'
+#' @section Methods:
+#' \describe{
+#' \item{\code{post_messages(message, room_id)}}{This methods post your message to specific room.}
+#' \item{\code{get_messages(room_id, force = FALSE)}}{This methods get messages in specific room.}
+#' }
 #' @export
 chatworkClient <- R6::R6Class("chatworkClient",
   public=list(
