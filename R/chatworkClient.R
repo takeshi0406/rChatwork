@@ -53,7 +53,7 @@ chatworkClient <- R6::R6Class("chatworkClient",
 
   private=list(
     access_token=NA,
-    url='https://api.chatwork.com/v1',
+    url='https://api.chatwork.com/v2',
 
     make_header=function() {
       return (
